@@ -1,0 +1,4 @@
+To trim videos:
+
+This commands trims the video from 2 minutes and makes it 33 seconds long:
+ffmpeg -i input_video.mp4 -ss 00:02:00 -t 00:00:33 -c copy output_video.mp4
